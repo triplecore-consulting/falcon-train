@@ -24,3 +24,17 @@
 -   `bash ./setup.sh`
 -   `LD_LIBRARY_PATH` is added to `.bashrc` Restart bash `exec bash` or
     logout/login
+
+## run stuff manually
+
+-   log into instance
+-   `cd falcon-train`
+-   `bash run.sh`
+
+## run stuff automatically
+
+-   TBD
+
+## TODO
+
+-   fix `LD_LIBRARY_PATH`
