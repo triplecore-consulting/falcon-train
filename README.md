@@ -1,6 +1,15 @@
 # falcon-train
 
-## Log into machine
+## Launch instance from template
+
+-   From template **LLMtrainingtest**
+-   Make sure OS is **"Deep Learning AMI GPU PyTorch 2.0.1 (Ubuntu 20.04)"**
+-   Select Instance type is **g5.<something xlarge>**
+-   Make sure Security group **falcon** is selected
+-   Set Storage volume size to (at least) **250GiB**
+-   Click **Launch instance**
+
+## Log into instance
 
 -   triplecore aws login (`awslogintriplecore <MFA>` for me)
 -   `aws ssm start-session --target <InstanceID>`
