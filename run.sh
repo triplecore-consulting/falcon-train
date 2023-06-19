@@ -17,7 +17,7 @@ ISO_DATE=$(date -Iseconds -u)
 
 if [[ $quiet = true ]]
 then
-    python3 ./falcon_peft.py  </dev/null >"$ISO_DATE.log" 2>"$ISO_DATE.err"
+    python3 ./falcon_peft.py  -save_steps 500 </dev/null >"$ISO_DATE.log" 2>"$ISO_DATE.err"
 else
     python3 ./falcon_peft.py  </dev/null
 fi
