@@ -124,7 +124,7 @@ class ScriptArguments:
             "help": "Group sequences into batches with same length. Saves memory and speeds up training considerably."
         },
     )
-    save_steps: int = field(default=10, metadata={"help": "Save checkpoint every X updates steps."})
+    save_steps: int = field(default=500, metadata={"help": "Save checkpoint every X updates steps."})
     logging_steps: int = field(default=10, metadata={"help": "Log every X updates steps."})
 
 

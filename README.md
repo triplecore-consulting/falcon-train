@@ -41,5 +41,6 @@
 
 ## TODO
 
+-   `accelerate configure`, `accelerate launch ./falcon_peft.py`
 -   run install as root
 -   fix `LD_LIBRARY_PATH`
